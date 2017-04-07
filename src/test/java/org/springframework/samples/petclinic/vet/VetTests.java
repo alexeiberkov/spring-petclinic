@@ -39,10 +39,5 @@ public class VetTests {
         assertThat(other.getLastName()).isEqualTo(vet.getLastName());
         assertThat(other.getId()).isEqualTo(vet.getId());
     }
-    
-    @Test
-    public void testSerialization2() {
-        assertThat(1).isEqualTo(2);
-    }
 
 }
