@@ -50,6 +50,7 @@ public class Vet extends Person {
     private Set<Specialty> specialties;
 
     protected Set<Specialty> getSpecialtiesInternal() {
+        Integer t = 90;
         if (this.specialties == null) {
             this.specialties = new HashSet<>();
         }
