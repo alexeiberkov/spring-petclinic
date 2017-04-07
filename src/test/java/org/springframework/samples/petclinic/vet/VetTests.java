@@ -41,7 +41,7 @@ public class VetTests {
     }
     
     @Test
-    public void testSerialization() {
+    public void testSerialization2() {
         assertThat(1).isEqualTo(2);
     }
 
