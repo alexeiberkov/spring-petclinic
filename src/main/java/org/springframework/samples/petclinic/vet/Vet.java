@@ -58,7 +58,7 @@ public class Vet extends Person {
     }
 
     protected void setSpecialtiesInternal(Set<Specialty> specialties) {
-Integer i = 90;
+Integer i = 190;
         this.specialties = specialties;
     }
 
